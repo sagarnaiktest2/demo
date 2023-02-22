@@ -10,5 +10,347 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "filter":{
+    "uuid": "",
+    "queryData": [
+      {
+        "values": [
+          "Feb 10, 2023",
+          "Feb 11, 2023",
+          "Feb 14, 2023",
+          "Feb 03, 2023",
+          "Jan 30, 2023",
+          "Jan 24, 2023",
+          "Feb 02, 2023",
+          "Jan 27, 2023",
+          "Feb 13, 2023",
+          "Feb 01, 2023",
+          "Feb 09, 2023",
+          "Feb 15, 2023",
+          "Jan 31, 2023",
+          "Jan 26, 2023",
+          "Feb 21, 2023",
+          "Feb 08, 2023",
+          "Jan 25, 2023"
+        ],
+        "dimension": "run_date"
+      },
+      {
+        "values": [
+          "INR",
+          "USD"
+        ],
+        "dimension": "currency"
+      },
+      {
+        "values": [
+          "UNKNOWN"
+        ],
+        "dimension": "emi_bank"
+      },
+      {
+        "values": [
+          "UNKNOWN"
+        ],
+        "dimension": "emi_type"
+      },
+      {
+        "values": [
+          "UNKNOWN",
+          "SBI",
+          "KOTAK MAHINDRA BANK",
+          "HDFC BANK",
+          "AXIS BANK",
+          "SIMPL",
+          "AMAZONPAY",
+          "PAYTM",
+          "AXIS",
+          "ICICI BANK",
+          "HDFC",
+          "YBL",
+          "CREDITSAISONCO..LTD.",
+          "AIRTELMONEY",
+          "ANZBANK.LTD.",
+          "AMEXEZECLICK",
+          "OKHDFCBANK",
+          "FREECHARGE",
+          "SHOPSE",
+          "OKICICI",
+          "HSBC",
+          "PHONEPE",
+          "JIOMONEY",
+          "GOOGLE PAY UPI APP"
+        ],
+        "dimension": "bank"
+      },
+      {
+        "values": [
+          "UNKNOWN"
+        ],
+        "dimension": "lob"
+      },
+      {
+        "values": [
+          "ORDER_PAYMENT"
+        ],
+        "dimension": "txn_type"
+      },
+      {
+        "values": [
+          "Feb 06, 2023 - Feb 12, 2023",
+          "Jan 30, 2023 - Feb 05, 2023",
+          "Feb 13, 2023 - Feb 19, 2023",
+          "Jan 23, 2023 - Jan 29, 2023",
+          "Feb 20, 2023 - Feb 26, 2023"
+        ],
+        "dimension": "run_week"
+      },
+      {
+        "values": [
+          "0-100",
+          "5K-10K",
+          "1L+"
+        ],
+        "dimension": "ticket_size"
+      },
+      {
+        "values": [
+          "Anjali_A_L",
+          "paypal"
+        ],
+        "dimension": "merchant_id"
+      },
+      {
+        "values": [
+          "UNKNOWN"
+        ],
+        "dimension": "payment_flow"
+      },
+      {
+        "values": [
+          "7D+",
+          "0M-1M",
+          "1M-10M",
+          "1H-1D",
+          "10M-1H"
+        ],
+        "dimension": "txn_latency"
+      },
+      {
+        "values": [
+          "PAYTM",
+          "GOCASHFREE",
+          "PAYTM_V2",
+          "ZAAKPAY",
+          "UNKNOWN",
+          "SIMPL",
+          "MPGS",
+          "TPSL",
+          "MIGS",
+          "HDFC",
+          "PAYU",
+          "AXIS_BIZ",
+          "RAZORPAY",
+          "ICICI_UPI",
+          "IPG",
+          "BLAZEPAY",
+          "AMAZONPAY",
+          "HSBC_UPI",
+          "FREECHARGE",
+          "YESBANK_UPI",
+          "SHOPSE"
+        ],
+        "dimension": "payment_gateway"
+      },
+      {
+        "values": [
+          "THREE_DS",
+          "UNKNOWN",
+          "THREE_DS_2"
+        ],
+        "dimension": "auth_type"
+      },
+      {
+        "values": [
+          "VISA",
+          "MASTERCARD"
+        ],
+        "dimension": "card_brand"
+      },
+      {
+        "values": [
+          "0"
+        ],
+        "dimension": "emi_tenure"
+      },
+      {
+        "values": [
+          "06",
+          "12",
+          "04",
+          "01",
+          "05",
+          "03",
+          "08",
+          "07"
+        ],
+        "dimension": "card_exp_month"
+      },
+      {
+        "values": [
+          "2023",
+          "2028",
+          "2025",
+          "2029",
+          "2024",
+          "2026",
+          "2027",
+          "2022"
+        ],
+        "dimension": "card_exp_year"
+      },
+      {
+        "values": [
+          "Feb, 2023",
+          "Jan, 2023"
+        ],
+        "dimension": "run_month"
+      },
+      {
+        "values": [
+          "FALSE"
+        ],
+        "dimension": "token_repeat"
+      },
+      {
+        "values": [
+          "Invalid Order Id",
+          "OrderId received with request was not valid",
+          "User dropped and did not complete the two factor authentication",
+          "notfoundTransactionn Not Found",
+          "Transaction Not Found At PG",
+          "Since Wallet Account exist Direct Wallet Token is mandatory for this transaction",
+          "Order Reference Id does not exist",
+          "POSTorderspay is not enabled or approved Please reach out to carecashfreecom",
+          "UNKNOWN",
+          "Invalid Card Details",
+          "Your ID XXX failed",
+          "ORDER IS CLOSE",
+          "Payment not initiated",
+          "0 out of 1 Transactions Fetched Successfully",
+          "Unable to get surcharge rate",
+          "Could not fetch ID XXX this ID XXX",
+          "Unable to find ID XXX and ID XXX for merchant 99114207 ",
+          "No message available",
+          "Metadata addInfo not found in request",
+          "Payment failed due to a technical error Please try after some time",
+          "Transaction declined",
+          "Your collect request has expired",
+          "Looks like the payment is not complete Please wait while we confirm the status with your bank",
+          "Failed in enrollment verification",
+          "Payment initialization failed Reason  statusCode108pgRespCode108txMsgMerchant Access Key is missing",
+          "Received empty response while initiating collect request"
+        ],
+        "dimension": "pg_error_message"
+      },
+      {
+        "values": [
+          "ORDER_PAYMENT"
+        ],
+        "dimension": "order_type"
+      },
+      {
+        "values": [
+          "UNKNOWN",
+          "INTERNATIONAL",
+          "DOMESTIC"
+        ],
+        "dimension": "business_region"
+      },
+      {
+        "values": [
+          "UNKNOWN",
+          "PENDING_VBV",
+          "AUTHORIZATION_FAILED",
+          "AUTHENTICATION_FAILED",
+          "AUTHORIZING"
+        ],
+        "dimension": "previous_txn_status"
+      },
+      {
+        "values": [
+          "AUTHORIZATION_FAILED",
+          "CHARGED",
+          "PENDING_VBV",
+          "AUTHENTICATION_FAILED",
+          "STARTED",
+          "AUTHORIZING",
+          "AUTO_REFUNDED",
+          "JUSPAY_DECLINED"
+        ],
+        "dimension": "actual_payment_status"
+      },
+      {
+        "values": [
+          "DEBIT CARD",
+          "NET BANKING",
+          "CREDIT CARD",
+          "WALLET",
+          "UPI",
+          "CONSUMER_FINANCE"
+        ],
+        "dimension": "payment_method_type"
+      },
+      {
+        "values": [
+          "False",
+          "True"
+        ],
+        "dimension": "using_stored_card"
+      },
+      {
+        "values": [
+          "PT_SYNC",
+          "TRANSACTION",
+          "REDIRECTION",
+          "START_PAY",
+          "WEBHOOKS",
+          "CRON_SYNC",
+          "UNKNOWN",
+          "ASN_FORCE_SYNC_V1"
+        ],
+        "dimension": "status_sync_source"
+      },
+      {
+        "values": [
+          "CONFLICTED",
+          "UNKNOWN",
+          "RESOLVED",
+          "MATCH"
+        ],
+        "dimension": "is_txn_conflicted"
+      },
+      {
+        "values": [
+          "UNKNOWN",
+          "REDIRECT_WALLET_DEBIT",
+          "UPI_PAY",
+          "UPI_COLLECT",
+          "DIRECT_WALLET_DEBIT",
+          "DECIDER_FALLBACK_TO_THREE_DS"
+        ],
+        "dimension": "payment_method_subtype"
+      },
+      {
+        "values": [
+          "UNITEDSTATES",
+          "INDIA",
+          "JAPAN"
+        ],
+        "dimension": "card_issuer_country"
+      }
+    ],
+    "metaData": []
   }
 }
